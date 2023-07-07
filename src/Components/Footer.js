@@ -52,38 +52,39 @@ function Footer() {
               flexDirection: "column",
             }}
           >
-            <h2>Galary</h2>
+            <h2 style={{marginTop:"30px"}}>Gallary</h2>
             <div
               style={{
                 height: "30px",
                 width: "30px",
                 display: "flex",
-                gap: "5px",
+                gap: "10px",
+                marginTop:"10px"
               }}
             >
-              <img src="https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&w=1000&q=80" />
-              <img src="https://media.istockphoto.com/id/1416048929/photo/woman-working-on-laptop-online-checking-emails-and-planning-on-the-internet-while-sitting-in.jpg?b=1&s=170667a&w=0&k=20&c=XCzSqjgn02etddi527fy6Q9Dz_MtPYKKc-MMbhS3kK0=" />
+              <img src="https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8&w=1000&q=80" style={{height:"60px" , width:"60px"}} />
+              <img src="https://media.istockphoto.com/id/1416048929/photo/woman-working-on-laptop-online-checking-emails-and-planning-on-the-internet-while-sitting-in.jpg?b=1&s=170667a&w=0&k=20&c=XCzSqjgn02etddi527fy6Q9Dz_MtPYKKc-MMbhS3kK0="  style={{height:"60px" , width:"60px"}}/>
   
-              <img src="https://images.pexels.com/photos/3401402/pexels-photo-3401402.jpeg?auto=compress&cs=tinysrgb&w=400" />
+              <img src="https://images.pexels.com/photos/3401402/pexels-photo-3401402.jpeg?auto=compress&cs=tinysrgb&w=400"  style={{height:"60px" , width:"60px"}}/>
   
-              <img src="https://images.pexels.com/photos/6893804/pexels-photo-6893804.jpeg?auto=compress&cs=tinysrgb&w=400" />
+              <img src="https://images.pexels.com/photos/6893804/pexels-photo-6893804.jpeg?auto=compress&cs=tinysrgb&w=400" style={{height:"60px" , width:"60px"}}/>
             </div>
   
             <div
               style={{
-                height: "30px",
+                height: "400px",
                 width: "30px",
                 display: "flex",
-                gap: "5px",
-                marginTop: "5px",
+                gap: "10px",
+                marginTop: "40px",
               }}
             >
-              <img src="https://images.pexels.com/photos/5588490/pexels-photo-5588490.jpeg?auto=compress&cs=tinysrgb&w=400" />
-              <img src="https://images.pexels.com/photos/5615067/pexels-photo-5615067.jpeg?auto=compress&cs=tinysrgb&w=400" />
+              <img src="https://images.pexels.com/photos/5588490/pexels-photo-5588490.jpeg?auto=compress&cs=tinysrgb&w=400" style={{height:"60px" , width:"60px"}}/>
+              <img src="https://images.pexels.com/photos/5615067/pexels-photo-5615067.jpeg?auto=compress&cs=tinysrgb&w=400" style={{height:"60px" , width:"60px"}} />
   
-              <img src="https://images.pexels.com/photos/5855210/pexels-photo-5855210.jpeg?auto=compress&cs=tinysrgb&w=400" />
+              <img src="https://images.pexels.com/photos/5855210/pexels-photo-5855210.jpeg?auto=compress&cs=tinysrgb&w=400" style={{height:"60px" , width:"60px"}}/>
   
-              <img src="https://images.pexels.com/photos/842548/pexels-photo-842548.jpeg?auto=compress&cs=tinysrgb&w=400" />
+              <img src="https://images.pexels.com/photos/842548/pexels-photo-842548.jpeg?auto=compress&cs=tinysrgb&w=400" style={{height:"60px" , width:"60px"}}/>
             </div>
           </div>
         </div>
